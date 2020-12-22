@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root {
+  --theme: #5f4c8a;
+  --theme-med: #6f5f94;
+  --theme-light: #cecad994;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#home-title {
+  font-family: 'trebuchet ms';
+  text-align: center;
+  color: white;
+  position: absolute;
+}
+
+#header {
+  position: relative;
+}
+
+#home-img {
+  width: 100%;
+  height: auto;
+  resize: both;
+
+}
+
+#navbar {
+  position: relative;
+  top: 0;
+  background-color: var(--theme);
+}
+
+#nav-items {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+#footer {
+  background-color: var(--theme-light);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 5rem;
+  text-align: center;
+}
+
+#calendar {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0;
+  overflow: hidden;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  
+}
+
+#calendar iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+}
+
+#title {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: var(--theme-med);
+  color: white;
+  text-decoration: none;
+}
+
+#about {
+  background-color: var(--theme-light);
+  color: #555555;
+  padding: 20px;
+  margin: 30px;
+  text-align: center;
+
+}
+
+#profileRow {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#officerProfile {
+  flex: 33.33%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#officerImg {
+  width: 100%;
+  height: auto;
+  border: 5px solid #d6c587;
+}
+
+#profileLabel {
+  margin: 5px;
+}
+
+#contact {
+  background-color: #d8cae6;
+  text-align: center;
+  padding: 20px;
+  margin: 30px;
+  box-shadow: 0 0 10px 5px #dddddd;
+  position: relative;
+}
+
+input {
+  text-align: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 75%;
+  height: auto;
+
+}
+
+button {
+  background-color: #846aba;
+  color: white;
+  margin: 10px;
+}
